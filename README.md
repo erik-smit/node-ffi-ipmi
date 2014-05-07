@@ -3,9 +3,21 @@ node-ffi-ipmi
 
 wrapping various ipmi related tools and libs for node via node-ffi @ https://github.com/rbranson/node-ffi.git
 
-First, clone https://github.com/speedops/ipmitool.git and configure and make it.
+First, 
 
-Then, make the ipmi stuff here to do ipmitool stuff in node.js
+    git clone https://github.com/speedops/ipmitool.git
+    cd ipmitool
+    ./configure && make
+    cd ..
+
+Then, 
+
+    npm install
+    make
+
+to do ipmitool stuff: 
+
+    node ipmi.js
 
 why
 ===
