@@ -1,6 +1,6 @@
 var ref = require('ref');
 // if node-ffi is install elsewhere , change the following
-var ffi = require('../node-ffi');
+var ffi = require('ffi');
 
 var charPtr = ref.refType(ref.types.char)
 
