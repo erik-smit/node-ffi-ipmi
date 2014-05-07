@@ -5,10 +5,10 @@ wrapping various ipmi related tools and libs for node via node-ffi @ https://git
 
 First, 
 
-    git clone https://github.com/speedops/ipmitool.git
-    cd ipmitool
+    git clone https://github.com/speedops/ipmitool.git ../ipmitool
+    cd ../ipmitool
     ./configure && make
-    cd ..
+    cd -
 
 Then, 
 
